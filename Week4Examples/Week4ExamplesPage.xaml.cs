@@ -8,5 +8,10 @@ namespace Week4Examples
         {
             InitializeComponent();
         }
+
+        void Handle_NavigateToSimpleListView(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new SimpleListView());
+        }
     }
 }

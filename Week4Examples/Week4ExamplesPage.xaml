@@ -42,5 +42,8 @@
                 Grid.Column="1"
                 HorizontalTextAlignment="Center" />
         </Grid>
+        <Button
+            Text="Simple List View Example" 
+            Clicked="Handle_NavigateToSimpleListView"/>
     </StackLayout>
 </ContentPage>

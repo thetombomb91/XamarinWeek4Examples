@@ -8,7 +8,7 @@ namespace Week4Examples
         {
             InitializeComponent();
 
-            MainPage = new Week4ExamplesPage();
+            MainPage = new NavigationPage(new Week4ExamplesPage());
         }
 
         protected override void OnStart()
