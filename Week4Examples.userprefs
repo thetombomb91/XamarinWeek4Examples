@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{EAB39618-F312-499B-B3C5-6C597895B909}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Week4Examples/Week4ExamplesPage.xaml">
+    <Files>
+      <File FileName="Week4Examples/Week4ExamplesPage.xaml" Line="22" Column="47" />
+      <File FileName="iOS/AppDelegate.cs" Line="17" Column="31" />
+      <File FileName="Droid/MainActivity.cs" Line="22" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../Git/LuxorUniversal/Luxor.Droid/Gestures/TouchEffect.cs" line="210" offsetX="658" offsetY="3172" expression="pointerLocation.Y" liveUpdate="True" />
+    <Watch file="../../Git/LuxorUniversal/Luxor.Droid/Gestures/TouchEffect.cs" line="209" offsetX="658" offsetY="3119" expression="pointerLocation.X" liveUpdate="True" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Week4Examples.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.EAC59461-916A-4694-A3BA-E84A2BAEFF16">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Week4Examples.iOS>
+</Properties>
