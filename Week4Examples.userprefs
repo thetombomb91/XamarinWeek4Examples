@@ -1,18 +1,16 @@
 ﻿<Properties StartupConfiguration="{EAB39618-F312-499B-B3C5-6C597895B909}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Week4Examples/Week4ExamplesPage.xaml">
     <Files>
-      <File FileName="Week4Examples/Week4ExamplesPage.xaml" Line="50" Column="44" />
       <File FileName="Week4Examples/SimpleListView.xaml" Line="5" Column="39" />
       <File FileName="Week4Examples/SimpleListView.xaml.cs" Line="25" Column="32" />
       <File FileName="Week4Examples/Week4ExamplesPage.xaml.cs" Line="19" Column="55" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="Week4Examples/obj/Debug/Week4Examples.SimpleListView.xaml.g.cs" Line="18" Column="48" />
-      <File FileName="Week4Examples/Models/EmptyClass.cs" Line="1" Column="1" />
       <File FileName="Week4Examples/Models/ColorListItem.cs" Line="20" Column="31" />
       <File FileName="Week4Examples/ImageCellListView.xaml.cs" Line="19" Column="10" />
       <File FileName="Week4Examples/Models/ImageCellItem.cs" Line="18" Column="10" />
       <File FileName="Week4Examples/ImageCellListView.xaml" Line="8" Column="31" />
-      <File FileName="Droid/MainActivity.cs" Line="24" Column="37" />
+      <File FileName="Droid/MainActivity.cs" Line="27" Column="10" />
+      <File FileName="Week4Examples/Week4ExamplesPage.xaml" Line="52" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
