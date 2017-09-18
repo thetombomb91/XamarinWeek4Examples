@@ -43,7 +43,10 @@
                 HorizontalTextAlignment="Center" />
         </Grid>
         <Button
-            Text="Simple List View Example" 
-            Clicked="Handle_NavigateToSimpleListView"/>
+            Text="Simple List View Example"
+            Clicked="Handle_NavigateToSimpleListView" />
+        <Button
+            Text="Simple TextCell List View Example"
+            Clicked="NavigateToTextCellListView" />
     </StackLayout>
 </ContentPage>

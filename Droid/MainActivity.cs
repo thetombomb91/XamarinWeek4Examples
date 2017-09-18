@@ -21,7 +21,7 @@ namespace Week4Examples.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-			XFGloss.Droid.Library.Init(this, savedInstanceState);
+			//XFGloss.Droid.Library.Init(this, savedInstanceState);
 
 			LoadApplication(new App());
         }
