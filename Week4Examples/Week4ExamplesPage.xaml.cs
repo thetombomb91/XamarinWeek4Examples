@@ -17,6 +17,11 @@ namespace Week4Examples
         void NavigateToTextCellListView(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new ImageCellListView());
-		}
+        }
+
+        void Handle_NavigateToWebNavigationListView(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new ListViewWithWebNavigation());
+        }
     }
 }

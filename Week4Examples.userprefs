@@ -1,21 +1,24 @@
 ﻿<Properties StartupConfiguration="{EAB39618-F312-499B-B3C5-6C597895B909}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Week4Examples/Week4ExamplesPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Week4Examples/ImageCellListView.xaml.cs">
     <Files>
-      <File FileName="Week4Examples/SimpleListView.xaml" Line="5" Column="39" />
-      <File FileName="Week4Examples/SimpleListView.xaml.cs" Line="25" Column="32" />
-      <File FileName="Week4Examples/Week4ExamplesPage.xaml.cs" Line="19" Column="55" />
+      <File FileName="Week4Examples/SimpleListView.xaml" Line="11" Column="15" />
+      <File FileName="Week4Examples/SimpleListView.xaml.cs" Line="17" Column="1" />
+      <File FileName="Week4Examples/Week4ExamplesPage.xaml" Line="50" Column="52" />
+      <File FileName="Week4Examples/Week4ExamplesPage.xaml.cs" Line="22" Column="1" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="Week4Examples/Models/ColorListItem.cs" Line="20" Column="31" />
-      <File FileName="Week4Examples/ImageCellListView.xaml.cs" Line="19" Column="10" />
-      <File FileName="Week4Examples/Models/ImageCellItem.cs" Line="18" Column="10" />
-      <File FileName="Week4Examples/ImageCellListView.xaml" Line="8" Column="31" />
-      <File FileName="Droid/MainActivity.cs" Line="27" Column="10" />
-      <File FileName="Week4Examples/Week4ExamplesPage.xaml" Line="52" Column="15" />
+      <File FileName="Week4Examples/ImageCellListView.xaml" Line="18" Column="15" />
+      <File FileName="Week4Examples/ImageCellListView.xaml.cs" Line="32" Column="15" />
+      <File FileName="Week4Examples/Models/WebsiteItem.cs" Line="6" Column="34" />
+      <File FileName="Week4Examples/ListViewWithWebNavigation.xaml" Line="14" Column="62" />
+      <File FileName="Week4Examples/ListViewWithWebNavigation.xaml.cs" Line="23" Column="79" />
+      <File FileName="Week4Examples/Models/ImageCellItem.cs" Line="20" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/thomasdesmond/Projects/Week4Examples/Week4Examples/ListViewWithContextMenu.xaml.cs" relfile="Week4Examples/ListViewWithContextMenu.xaml.cs" line="48" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="../../Git/LuxorUniversal/Luxor.Droid/Gestures/TouchEffect.cs" line="210" offsetX="658" offsetY="3172" expression="pointerLocation.Y" liveUpdate="True" />

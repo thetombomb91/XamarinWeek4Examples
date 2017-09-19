@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="Week4Examples.ListViewWithWebNavigation">
+        <ListView
+            x:Name="WebsiteListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem
+                                Text="Visit"
+                                Clicked="Handle_NavigateToUrl"
+                                CommandParameter="{Binding url}"
+                                IsDestructive="True" />
+                        </ViewCell.ContextActions>
+                        <Label Text="{Binding websiteName}"/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+</ContentPage>

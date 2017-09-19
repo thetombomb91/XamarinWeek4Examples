@@ -36,6 +36,12 @@
     <EmbeddedResource Include="ImageCellListView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="PullToRefreshListViewExample.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListViewWithWebNavigation.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -52,6 +58,13 @@
       <DependentUpon>ImageCellListView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\ImageCellItem.cs" />
+    <Compile Include="PullToRefreshListViewExample.xaml.cs">
+      <DependentUpon>PullToRefreshListViewExample.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\WebsiteItem.cs" />
+    <Compile Include="ListViewWithWebNavigation.xaml.cs">
+      <DependentUpon>ListViewWithWebNavigation.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

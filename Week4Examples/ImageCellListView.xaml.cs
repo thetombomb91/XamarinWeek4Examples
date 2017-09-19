@@ -17,12 +17,19 @@ namespace Week4Examples
 
         private void PopulateColorList()
         {
-            var imagesForListView = new ObservableCollection<ImageCellItem>();
-
-            var imageCellItem = new ImageCellItem();
-            imageCellItem.IconSource = ImageSource.FromFile("twitter.png");
-            imageCellItem.ImageText = "Twitter";
-            imagesForListView.Add(imageCellItem);
+            var imagesForListView = new ObservableCollection<ImageCellItem>()
+            {
+                new ImageCellItem()
+                {
+                    IconSource = ImageSource.FromFile("twitter.png"),
+                    ImageText = "Twitter",
+                },
+                new ImageCellItem()
+                {
+                    IconSource = ImageSource.FromFile("google.png"),
+                    ImageText = "Google",
+                },
+            };
 
             ImageCellsListView.ItemsSource = imagesForListView;
         }

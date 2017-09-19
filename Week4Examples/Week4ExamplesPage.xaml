@@ -46,7 +46,10 @@
             Text="Simple List View Example"
             Clicked="Handle_NavigateToSimpleListView" />
         <Button
-            Text="Simple TextCell List View Example"
+            Text="TextCell List View Example"
             Clicked="NavigateToTextCellListView" />
+        <Button
+            Text="ListView w/ Web Navigation Example"
+            Clicked="Handle_NavigateToWebNavigationListView" />
     </StackLayout>
 </ContentPage>
