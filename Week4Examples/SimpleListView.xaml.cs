@@ -7,7 +7,9 @@ namespace Week4Examples
 {
     public partial class SimpleListView : ContentPage
     {
-        public SimpleListView()
+        int numItems = 8;
+        ObservableCollection<int> listOfInts = new ObservableCollection<int>();
+		public SimpleListView()
         {
             InitializeComponent();
 
@@ -16,13 +18,18 @@ namespace Week4Examples
 
         private void PopulateListView()
         {
-            var listOfInts = new ObservableCollection<int>();
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < numItems; i++)
             {
                 listOfInts.Add(i);
             }
 
             FirstSimpleListView.ItemsSource = listOfInts;
+        }
+
+        void Handle_AddItemToListView(object sender, System.EventArgs e)
+        {
+            listOfInts.Add(numItems);
+            numItems++;
         }
     }
 }

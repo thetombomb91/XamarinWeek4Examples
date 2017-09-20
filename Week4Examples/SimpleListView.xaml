@@ -4,8 +4,16 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Week4Examples.SimpleListView">
     <StackLayout>
-        <ListView
-            x:Name="FirstSimpleListView">
-        </ListView>
+        <Button
+            Text="Add Item To List View"
+            BorderColor="Blue"
+            BorderWidth="2"
+            BorderRadius="3"
+            Clicked="Handle_AddItemToListView" />
+        <StackLayout>
+            <ListView
+                x:Name="FirstSimpleListView">
+            </ListView>
+        </StackLayout>
     </StackLayout>
 </ContentPage>
