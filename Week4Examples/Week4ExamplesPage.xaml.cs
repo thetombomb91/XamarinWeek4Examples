@@ -14,6 +14,11 @@ namespace Week4Examples
             Navigation.PushAsync(new SimpleListView());
         }
 
+        void Handle_NavigateToSimpleListViewBrokenButton(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new SimpleListViewBrokenAddButton());
+        }
+
         void NavigateToTextCellListView(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new ImageCellListView());

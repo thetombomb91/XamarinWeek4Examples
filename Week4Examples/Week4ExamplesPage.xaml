@@ -5,7 +5,7 @@
     xmlns:local="clr-namespace:Week4Examples"
     xmlns:xfg="clr-namespace:XFGloss;assembly=XFGloss"
     x:Class="Week4Examples.Week4ExamplesPage"
-    Padding="0,20,0,0">
+    Padding="20,20,20,0">
     <xfg:ContentPageGloss.BackgroundGradient>
         <xfg:Gradient
             Rotation="150">
@@ -16,7 +16,7 @@
                 StepColor="White"
                 StepPercentage=".5" />
             <xfg:GradientStep
-                StepColor="#ccd9ff"
+                StepColor="#4c79bf"
                 StepPercentage="1" />
         </xfg:Gradient>
     </xfg:ContentPageGloss.BackgroundGradient>
@@ -44,12 +44,27 @@
         </Grid>
         <Button
             Text="Simple List View Example"
-            Clicked="Handle_NavigateToSimpleListView" />
+            Clicked="Handle_NavigateToSimpleListView"
+            BorderColor="Navy"
+            BorderWidth="2"
+            BorderRadius="10" />
+        <Button
+            Text="Simple List View Broken Button Example"
+            Clicked="Handle_NavigateToSimpleListViewBrokenButton"
+            BorderColor="Navy"
+            BorderWidth="2"
+            BorderRadius="10" />
         <Button
             Text="TextCell List View Example"
-            Clicked="NavigateToTextCellListView" />
+            Clicked="NavigateToTextCellListView"
+            BorderColor="Navy"
+            BorderWidth="2"
+            BorderRadius="10" />
         <Button
             Text="ListView w/ Web Navigation Example"
-            Clicked="Handle_NavigateToWebNavigationListView" />
+            Clicked="Handle_NavigateToWebNavigationListView"
+            BorderColor="Navy"
+            BorderWidth="2"
+            BorderRadius="10" />
     </StackLayout>
 </ContentPage>

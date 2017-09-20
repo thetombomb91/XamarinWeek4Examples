@@ -42,6 +42,9 @@
     <EmbeddedResource Include="ListViewWithWebNavigation.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="SimpleListViewBrokenAddButton.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -64,6 +67,9 @@
     <Compile Include="Models\WebsiteItem.cs" />
     <Compile Include="ListViewWithWebNavigation.xaml.cs">
       <DependentUpon>ListViewWithWebNavigation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleListViewBrokenAddButton.xaml.cs">
+      <DependentUpon>SimpleListViewBrokenAddButton.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
